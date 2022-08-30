@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box{
+    padding: 20px;
+}
+h3{
+    color: #fff;
+    transition: 0.2s;
+}
+h3:hover{
+    color: red;
+    cursor:pointer;
+}
